@@ -1,0 +1,85 @@
+/**
+ * Layout Elements - additional CSS for the LearningWiki template
+ *
+ * @author:     Luca Tironi <luca.tironi@gmail.com>
+ * @homepage:   http://www.burninghands.net
+ */
+
+/*----- reset -----*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/*----------- general setup -----------*/
+html {
+  font-size: 100.01%;
+}
+
+body {
+  background: __background__;
+  font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+  color: __text__;
+  font-size: __font_size__;
+}
+
+div.dokuwiki {
+  width: __wiki_width__;
+  margin: 0 auto;
+  background: __background__ url(images/bkg.jpg) center 0 no-repeat;
+}
+
+div.dokuwiki .left_column {
+  float: left;
+  width: __column_width__;
+  margin-right: 10px;
+  font-size: 70%;
+}
+
+div.dokuwiki .right_column {
+  float: left;
+  width: __column_width__;
+  margin-right: 0;
+  text-align: right;
+  font-size: 70%;
+}
+
+div.dokuwiki .center_column {
+  float: left;
+  width: __page_width__;
+  margin-right: 10px;
+}
+
+div.dokuwiki .header {
+  margin-top: 20px;
+}
+
+div.dokuwiki .logo {
+  float: left;
+  font-size: 120%;
+}
+
+div.dokuwiki .logo a {
+  color: __text__ !important;
+  text-decoration: none;
+  font-variant: normal;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+div.dokuwiki .searchform {
+  float: right;
+  text-align: right;
+}
+
+div.dokuwiki div#navbar {
+  margin-top: 10px;
+}
+
+div.dokuwiki .footer {
+  margin-bottom: 20px;
+}
