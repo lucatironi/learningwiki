@@ -54,8 +54,12 @@ div.dokuwiki .center_column {
   margin-right: 10px;
 }
 
+div.dokuwiki .top {
+  margin-top: 5px;
+}
+
 div.dokuwiki .header {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 div.dokuwiki .logo {

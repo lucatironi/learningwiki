@@ -7,6 +7,9 @@
 
 .floatleft {float:left;}
 .floatright {float:right;}
+.alignleft {text-align:left;}
+.alignright {text-align:right;}
+.aligncenter {text-align:center;}
 
 /*----------- general headline setup -----------*/
 div.dokuwiki h1,

@@ -33,15 +33,7 @@ include(DOKU_TPLINC.'tpl_functions.php');
 
     <!-- left column start -->
     <div class="left_column">
-      <a href="http://www.sdabocconi.it" onclick="window.open(this.href); return false;">
-        <img src="<?php echo DOKU_TPL?>images/logo_sda_sx.gif" alt="SDA Bocconi">
-      </a>
-      <br />
-      In collaboration with
-      <br />
-      <a href="http://www.iese.edu" onclick="window.open(this.href); return false;">
-        <img src="<?php echo DOKU_TPL?>images/iese.png" alt="IESE">
-      </a>
+      &nbsp;
     </div>
     <!-- left column stop -->
 
@@ -116,21 +108,13 @@ include(DOKU_TPLINC.'tpl_functions.php');
 
       <div class="clearer"></div>
 
-      <div class="footer">
-        
-      </div>
+      <?php /*old includehook*/ @include(dirname(__FILE__).'/footer.html')?>
     </div>
     <!-- content stop -->
 
     <!-- right column start -->
     <div class="right_column">
-      <img src="<?php echo DOKU_TPL?>images/logo_sda_dx.gif" alt="SDA Bocconi">
-      <br />
-      For
-      <br />
-      <a href="http://www.enel.it" onclick="window.open(this.href); return false;">
-        <img src="<?php echo DOKU_TPL?>images/enel.png" alt="Enel University">
-      </a>
+      &nbsp;
     </div>
     <!-- right column stop -->
 
